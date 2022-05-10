@@ -31,6 +31,7 @@
 }
 
 header {
+    position: absolute;
     background-color: #0a3353;
 }
 .navigation{
