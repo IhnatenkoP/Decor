@@ -19,7 +19,10 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/owl.carousel.css">
+    <link rel="stylesheet" href="CSS/owl.theme.default.css">
     <link rel="stylesheet" href="CSS/style.css">
+
 </head>
 <body>
 <header>
@@ -63,7 +66,7 @@
 <section class="section type_4">
     <img class="img_type_1" src="images/BG/bub1.jpg" alt="bub1">
     <img class="img_type_2" src="images/BG/bub2.jpg" alt="bub1">
-    <div class="container d-flex">
+    <div  style="align-items: flex-start" class="container d-flex">
         <div>
             <h3 class="h3_about">О нас</h3>
             <p class="p_about">
@@ -117,12 +120,28 @@
         </div>
     </div>
 </section>
-
+<div class="owl-carousel">
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+</div>
 <section class="section_wall">
     <img class="bubbles_group" src="images/BG/bub_group.jpg" alt="bubbles">
     <div class="container">
+       <div class="d-flex">
+        <div>
         <h3 class="wall_h3">Портфолио</h3>
-        <div class="d-flex">
+        </div>
+        <div class="wall_arrow">
+            <img src="images/icones/arrow-right%202.svg">
+            <img src="images/icones/arrow-left.svg">
+        </div>
+        </div>
+        <div class="d-flex container_round">
             <div>
                 <img class="wall_photo" src="images/wall.jpg" alt="wall">
                 <h4 class="font_h4">Travertino FEIDAL</h4>
@@ -135,15 +154,50 @@
                     нейтральний запах.</p>
             </div>
         </div>
-        <button class="button_wall" type="submit">Оставить заявку</button>
+        <button class="catalog_btn" type="submit">Оставить заявку</button>
     </div>
 
 </section>
 <section>
-    <img class="img_type" src="images/BG/BG%20Bubbles.jpg" alt="bubbles">
-    <h3>Каталог фактур</h3>
-    <div>
 
+    <img class="img_type" src="images/BG/BG%20Bubbles.jpg" alt="bubbles">
+    <div class="container">
+    <h3 class="wall_h3">Каталог фактур</h3>
+    <div class="catalog_container">
+    <div>
+        <img class="catalog_img" src="images/examle1.jpg" alt="example1">
+        <p  class="catalog_p">GROTTO</p>
+    </div>
+        <div>
+            <img class="catalog_img" src="images/example2.jpg" alt="example2">
+            <p class="catalog_p">MARMORINO</p>
+        </div>
+        <div>
+            <img class="catalog_img" src="images/example3.jpg" alt="example3">
+            <p  class="catalog_p">VENEZIANO</p>
+        </div>
+        <div>
+            <img class="catalog_img" src="images/example4.jpg" alt="example4">
+            <p  class="catalog_p">MAGIE</p>
+        </div>
+        <div>
+            <img class="catalog_img" src="images/example5.jpg" alt="example5">
+            <p>LAVA</p>
+        </div>
+        <div>
+            <img class="catalog_img" src="images/example6.jpg" alt="example6">
+            <p>PERSIA</p>
+        </div>
+        <div>
+            <img class="catalog_img" src="images/example7.jpg" alt="example7">
+            <p>SAHARA GOLD</p>
+        </div>
+        <div>
+            <img class="catalog_img" src="images/example8.jpg" alt="example8">
+            <p>TRAVERTINO</p>
+        </div>
+    </div>
+        <button class="button_wall" type="submit">Показать больше</button>
     </div>
 </section>
 
@@ -210,6 +264,11 @@
     </div>
 </footer>
 <script src="https://kit.fontawesome.com/6bfbb240ef.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
 

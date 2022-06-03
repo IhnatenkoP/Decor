@@ -31,7 +31,9 @@
 }
 
 header {
-    background-color: #0a3353;
+    position: absolute;
+width: 100%;
+
 }
 .navigation{
     display: flex;
@@ -103,7 +105,6 @@ section div h1{
     border: none;
     padding: 20px 48.9px;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
-    box-shadow: 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     text-decoration: none;
     color: #FFFFFF;
@@ -141,7 +142,9 @@ section div form button{
     border-radius: 10px;
 }
 .type_2{
-    background-image: url('../images/BG/BG.jpg'); padding-top: 170px;
+    background-image: url('../images/BG/BG.jpg');
+    padding-top: 170px;
+
 }
 .type_3 {
     background-color: #FFFFFF;
@@ -149,7 +152,8 @@ section div form button{
 }
 .type_4{
     background-color: #FFFFFF;
-    margin-top:15px;
+    padding-top:15px;
+    padding-bottom: 40px;
 }
 
 .div_2{
@@ -190,7 +194,7 @@ section div form button{
 .img_type_1{
     width: 100%;
     margin-bottom:26px;
-    margin-top: 14px;
+
 }
 .img_type_2{
     width: 100%;
@@ -347,10 +351,19 @@ h2 {
     line-height: 130%;
     color: #373737;
 }
+.wall_arrow{
+    margin-right: 60px;
+    margin-bottom: 54px;
+
+}
+.wall_arrow img{
+    margin-right: 40px;
+}
 .wall_photo {
     max-width: 540px;
     border-radius: 20px;
     margin-bottom: 20px;
+    margin-right: 40px;
 }
 .font_h4{
 
@@ -391,4 +404,58 @@ h2 {
     font-size: 16px;
     line-height: 150%;
     color: #373737;
+}
+.catalog_container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+
+
+}
+.catalog_more {
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+    padding: 20px 48.9px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    align-items: center;
+}
+.catalog_img{
+    margin-bottom: 20px;
+}
+.catalog_p{
+    margin-bottom: 40px;
+}
+.catalog_btn{
+
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    display: block;
+    border: none;
+    align-items: center;
+    width: 290px;
+    height: 70px;
+
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.container_round{
+    align-items: flex-start;
 }
